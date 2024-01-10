@@ -1,0 +1,7 @@
+![Screenshot_20240110_132922](https://github.com/yuva-ramya-sri/todolist/assets/80564898/d3a697e8-ffbd-48d3-b5e7-c78f445bff26)
+![Screenshot_20240110_133001](https://github.com/yuva-ramya-sri/todolist/assets/80564898/587cb7b3-5521-422d-a685-7422d4ac5a57)
+![Screenshot_20240110_133055](https://github.com/yuva-ramya-sri/todolist/assets/80564898/9c33bfa5-3fec-45d2-80fa-62094b8b2592)
+![Screenshot_20240110_133111](https://github.com/yuva-ramya-sri/todolist/assets/80564898/10a6387f-1922-43e0-a6df-a15c4608e62b)
+![Screenshot_20240110_133152](https://github.com/yuva-ramya-sri/todolist/assets/80564898/d3e844fb-c00d-47f6-81f8-cdd3bd145105)
+![Screenshot_20240110_133222](https://github.com/yuva-ramya-sri/todolist/assets/80564898/8905a5d5-8ccf-4933-988c-8667d349b8a4)
+![Screenshot_20240110_133237](https://github.com/yuva-ramya-sri/todolist/assets/80564898/38908f92-6010-46a2-bd52-e89659317e9d)
