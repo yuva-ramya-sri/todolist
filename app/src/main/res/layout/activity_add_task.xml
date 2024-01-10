@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#D3D3D3"
+    tools:context=".AddTaskActivity">
+
+
+
+    <EditText
+        android:id="@+id/taskNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Task"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/editTextDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taskNameEditText"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:hint="Due Date"
+        android:inputType="text"/>
+    <TextView
+        android:id="@+id/priorityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDueDate"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:text="Select Priority" />
+
+
+    <Spinner
+        android:id="@+id/spinnerPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priorityLabel"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:entries="@array/priority_levels" />
+    <EditText
+        android:id="@+id/editTextCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerPriority"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:hint="Category"
+        android:inputType="text"/>
+    <TextView
+        android:id="@+id/task_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextCategory"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:text="Task Status" />
+
+
+    <Spinner
+        android:id="@+id/spinnerTaskStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/task_status"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:entries="@array/task_status_values"
+        android:prompt="@string/task_status_prompt"/>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:text="Save"
+        android:layout_below="@id/spinnerTaskStatus"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>
